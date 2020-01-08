@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var currentLetterLabel: UILabel!
+    @IBOutlet weak var stackView: UIStackView!
+    @IBOutlet var labels: [UILabel]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func whenTapped(_ sender: Any) {
+    }
 }
 
